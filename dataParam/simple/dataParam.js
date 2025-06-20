@@ -5,7 +5,7 @@ export let options = {
     vus: 5,
     duration: '5s',
     iterations: 5, // Configuring the test to run with 5 virtual users for 5 seconds, with 5 iterations each
-  };
+};
 
 var data = new SharedArray("colors", function() {   // Initializing SharedArray to read data from a JSON file
     // "colors" is the name of the SharedArray, which can be used to reference this data in the k6 script
