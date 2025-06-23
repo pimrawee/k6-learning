@@ -22,7 +22,7 @@ export const options = {
 };
 
 export default function () {
-    const res = http.get("https://cm-stg.sitearound.com");
+    const res = http.get("https://www.google.com/");
 
     check(res, {
         'is status 200': r => r.status === 200,
